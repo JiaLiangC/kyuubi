@@ -22,7 +22,7 @@ import { useAuthStore } from '@/pinia/auth/auth'
 const service = axios.create({
   baseURL: '/', // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
-  timeout: 60000 // request timeout
+  timeout: 6000000 // request timeout
 })
 
 // request interceptor
